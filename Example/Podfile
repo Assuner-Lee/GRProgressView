@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GRProgressView_Example' do
+  pod 'GRProgressView', :path => '../'
+
+  target 'GRProgressView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
