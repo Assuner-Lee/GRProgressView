@@ -1,0 +1,6 @@
+framework module GRProgressView {
+  umbrella header "GRProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}

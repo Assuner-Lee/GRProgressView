@@ -1,0 +1,16 @@
+PODS:
+  - GRProgressView (0.1.0)
+
+DEPENDENCIES:
+  - GRProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  GRProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GRProgressView: d045b1941c6cd67c84a79d7ba839c6e44d3c69f5
+
+PODFILE CHECKSUM: b555434ea955aae6da5dd7e2acc8a494b90b469a
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,6 @@
+framework module Pods_GRProgressView_Example {
+  umbrella header "Pods-GRProgressView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

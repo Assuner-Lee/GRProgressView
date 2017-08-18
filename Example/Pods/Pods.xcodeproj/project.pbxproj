@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A5945A30F3C20815715BB546E90B45 /* GRProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC53C67BE680E9AE1002C00FCD858043 /* GRProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33E621B3A10D9CED064DC49A6C015357 /* Pods-GRProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 473BDA3D03F290812A4673F2EED0D71D /* Pods-GRProgressView_Example-dummy.m */; };
+		55052F919549B7361022080A8CFED939 /* Pods-GRProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD6F6981BB58C2991E92D2433605183 /* Pods-GRProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		686B6C7FD26A20E3CAE0E09792088358 /* GRProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE009AF2E3F57676D57485D4EB8E32B /* GRProgressView.m */; };
+		73EF53C61CD380DDBDA025C6355A8E70 /* GRProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D3AB5E272CABC7ADB014F49666E0FB /* GRProgressView-dummy.m */; };
+		8DFF07BD906E9A3B8CA9D70E169F7DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		95FCA789ED6BC5B2588F9195F9C95C42 /* Pods-GRProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EC40FF07A44BAACDFC6F6BF1286CB9 /* Pods-GRProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39725F7072E25C18101025C349139AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E237E35DB748955C6A7D522DF80DC598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E49AB0A2884EB492B095B4CB75B646CA /* Pods-GRProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E50FE5AFC6FB456430E6520D70C1C15 /* Pods-GRProgressView_Tests-dummy.m */; };
+		F75247D2326BF9BD322854D698D9AFAD /* GRProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0810BB22EECC01D829CF2D08D23D0E /* GRProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5917A770A123FC5D5B213FA28202C175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7AB48552E98B0B1C90E0596616D143;
+			remoteInfo = GRProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BD6F6981BB58C2991E92D2433605183 /* Pods-GRProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2D0810BB22EECC01D829CF2D08D23D0E /* GRProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRProgressView.h; sourceTree = "<group>"; };
+		32640E6D6D1C8CED4C495F5CCB8286A5 /* Pods-GRProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46747C97F0B7E646CDF633AFE261A5A5 /* Pods-GRProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRProgressView_Example.modulemap"; sourceTree = "<group>"; };
+		473BDA3D03F290812A4673F2EED0D71D /* Pods-GRProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRProgressView_Example-dummy.m"; sourceTree = "<group>"; };
+		495369A0745C5E2C64AAE78D2342F95F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E50FE5AFC6FB456430E6520D70C1C15 /* Pods-GRProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GRProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
+		57D6A3043FF4AC50EAC6BCD839EE983B /* Pods-GRProgressView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRProgressView_Example-resources.sh"; sourceTree = "<group>"; };
+		5A0DDF04554F10DB3A2CC463B81C829E /* Pods-GRProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5CCD1DA064E7F9FB440BC50DFA15E7B7 /* Pods-GRProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		670BC1C02AAC428CE06E9013AB01DF7F /* Pods-GRProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70B987F173079DF8AFF9139D9C696C81 /* Pods-GRProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73D3AB5E272CABC7ADB014F49666E0FB /* GRProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GRProgressView-dummy.m"; sourceTree = "<group>"; };
+		7BEC501D838879483B62AC88F1B67EAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808989FB34B3FE998833860F412F7978 /* Pods-GRProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GRProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		84EDD615442304BFAD94BD024C1192FB /* Pods-GRProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GRProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9029F22D7CE1163FE0F51D6B7BDDF59D /* Pods_GRProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRProgressView_Tests.framework; path = "Pods-GRProgressView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CC9A148046B679B599B46D16CD47F1 /* Pods-GRProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FC10E7B0ED1D139D58F254AB28723ED /* Pods-GRProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GRProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB3246A76AD479A6BC78F0673F4D82A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC53C67BE680E9AE1002C00FCD858043 /* GRProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRProgressView-umbrella.h"; sourceTree = "<group>"; };
+		CEE009AF2E3F57676D57485D4EB8E32B /* GRProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRProgressView.m; sourceTree = "<group>"; };
+		D4108350B7278ADCFC8D0AA7423B1AE6 /* Pods-GRProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GRProgressView_Tests.modulemap"; sourceTree = "<group>"; };
+		DD1798A1F2585C9B64533DC3FA3FE652 /* Pods_GRProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GRProgressView_Example.framework; path = "Pods-GRProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E218776193FFE81BC2D1040347B7D93F /* GRProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRProgressView.xcconfig; sourceTree = "<group>"; };
+		E2EC40FF07A44BAACDFC6F6BF1286CB9 /* Pods-GRProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GRProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E3D8FF72C3583BCDA0D6B2B542CEE094 /* GRProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GRProgressView.framework; path = GRProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DCD6E5D2A512AB27933615773D003A /* GRProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GRProgressView.modulemap; sourceTree = "<group>"; };
+		EB6D62C922C1C45565745EE6C8D6470D /* Pods-GRProgressView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRProgressView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F2F77299BB2F5D19A9CEC5DF07A56BDA /* GRProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GRProgressView-prefix.pch"; sourceTree = "<group>"; };
+		F99235DD406170AD7941C812C91C8A14 /* Pods-GRProgressView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GRProgressView_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C44AFA3E5783F3A0014F57A4D7B9D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFF07BD906E9A3B8CA9D70E169F7DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B654CBE9473BEA4DB948148267ACAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E237E35DB748955C6A7D522DF80DC598 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2979D6B64F641AEB779A49AE14B3F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39725F7072E25C18101025C349139AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27457C42213DC4F69490DE1F79504C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3D8FF72C3583BCDA0D6B2B542CEE094 /* GRProgressView.framework */,
+				DD1798A1F2585C9B64533DC3FA3FE652 /* Pods_GRProgressView_Example.framework */,
+				9029F22D7CE1163FE0F51D6B7BDDF59D /* Pods_GRProgressView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C338F2CFBE6E3BDD803D1774AB4A4E /* Pods-GRProgressView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				495369A0745C5E2C64AAE78D2342F95F /* Info.plist */,
+				D4108350B7278ADCFC8D0AA7423B1AE6 /* Pods-GRProgressView_Tests.modulemap */,
+				9FC10E7B0ED1D139D58F254AB28723ED /* Pods-GRProgressView_Tests-acknowledgements.markdown */,
+				84EDD615442304BFAD94BD024C1192FB /* Pods-GRProgressView_Tests-acknowledgements.plist */,
+				4E50FE5AFC6FB456430E6520D70C1C15 /* Pods-GRProgressView_Tests-dummy.m */,
+				EB6D62C922C1C45565745EE6C8D6470D /* Pods-GRProgressView_Tests-frameworks.sh */,
+				F99235DD406170AD7941C812C91C8A14 /* Pods-GRProgressView_Tests-resources.sh */,
+				E2EC40FF07A44BAACDFC6F6BF1286CB9 /* Pods-GRProgressView_Tests-umbrella.h */,
+				70B987F173079DF8AFF9139D9C696C81 /* Pods-GRProgressView_Tests.debug.xcconfig */,
+				670BC1C02AAC428CE06E9013AB01DF7F /* Pods-GRProgressView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GRProgressView_Tests";
+			path = "Target Support Files/Pods-GRProgressView_Tests";
+			sourceTree = "<group>";
+		};
+		5029BA13DF620870983188C26431FA37 /* Pods-GRProgressView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AB3246A76AD479A6BC78F0673F4D82A9 /* Info.plist */,
+				46747C97F0B7E646CDF633AFE261A5A5 /* Pods-GRProgressView_Example.modulemap */,
+				93CC9A148046B679B599B46D16CD47F1 /* Pods-GRProgressView_Example-acknowledgements.markdown */,
+				32640E6D6D1C8CED4C495F5CCB8286A5 /* Pods-GRProgressView_Example-acknowledgements.plist */,
+				473BDA3D03F290812A4673F2EED0D71D /* Pods-GRProgressView_Example-dummy.m */,
+				5CCD1DA064E7F9FB440BC50DFA15E7B7 /* Pods-GRProgressView_Example-frameworks.sh */,
+				57D6A3043FF4AC50EAC6BCD839EE983B /* Pods-GRProgressView_Example-resources.sh */,
+				1BD6F6981BB58C2991E92D2433605183 /* Pods-GRProgressView_Example-umbrella.h */,
+				808989FB34B3FE998833860F412F7978 /* Pods-GRProgressView_Example.debug.xcconfig */,
+				5A0DDF04554F10DB3A2CC463B81C829E /* Pods-GRProgressView_Example.release.xcconfig */,
+			);
+			name = "Pods-GRProgressView_Example";
+			path = "Target Support Files/Pods-GRProgressView_Example";
+			sourceTree = "<group>";
+		};
+		5DE433BB1862DAF2A1486E727FB75C79 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5029BA13DF620870983188C26431FA37 /* Pods-GRProgressView_Example */,
+				43C338F2CFBE6E3BDD803D1774AB4A4E /* Pods-GRProgressView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				999E7F08F6879A10E6E573B7C7B8161C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				27457C42213DC4F69490DE1F79504C2B /* Products */,
+				5DE433BB1862DAF2A1486E727FB75C79 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		999E7F08F6879A10E6E573B7C7B8161C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5F215ECFC4CAB93CD16DFF7F6D7AB97 /* GRProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5F215ECFC4CAB93CD16DFF7F6D7AB97 /* GRProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				C574D1BAA468BBBC118EB2BADDB97E11 /* GRProgressView */,
+				E47CC41D8FD02A95BA4940C1312507B5 /* Support Files */,
+			);
+			name = GRProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C574D1BAA468BBBC118EB2BADDB97E11 /* GRProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F489374C69463F539901D3C7F2E24B4B /* Classes */,
+			);
+			name = GRProgressView;
+			path = GRProgressView;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E47CC41D8FD02A95BA4940C1312507B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCD6E5D2A512AB27933615773D003A /* GRProgressView.modulemap */,
+				E218776193FFE81BC2D1040347B7D93F /* GRProgressView.xcconfig */,
+				73D3AB5E272CABC7ADB014F49666E0FB /* GRProgressView-dummy.m */,
+				F2F77299BB2F5D19A9CEC5DF07A56BDA /* GRProgressView-prefix.pch */,
+				CC53C67BE680E9AE1002C00FCD858043 /* GRProgressView-umbrella.h */,
+				7BEC501D838879483B62AC88F1B67EAE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GRProgressView";
+			sourceTree = "<group>";
+		};
+		F489374C69463F539901D3C7F2E24B4B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D0810BB22EECC01D829CF2D08D23D0E /* GRProgressView.h */,
+				CEE009AF2E3F57676D57485D4EB8E32B /* GRProgressView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E244962531D1A4558D68AA8E0566871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A5945A30F3C20815715BB546E90B45 /* GRProgressView-umbrella.h in Headers */,
+				F75247D2326BF9BD322854D698D9AFAD /* GRProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32A5F0B6D93FAF0CF08FCFBCBE5822E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55052F919549B7361022080A8CFED939 /* Pods-GRProgressView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA21D7987F5B398BC0AE19275EB720DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FCA789ED6BC5B2588F9195F9C95C42 /* Pods-GRProgressView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AE91CDAE1DDED1EF5C3C5817552A27B /* Pods-GRProgressView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDEEE0885D3C476EFDFE1EEAA782BC0 /* Build configuration list for PBXNativeTarget "Pods-GRProgressView_Tests" */;
+			buildPhases = (
+				AFB5616BB52134200D8788C10848D42D /* Sources */,
+				8C44AFA3E5783F3A0014F57A4D7B9D4C /* Frameworks */,
+				CA21D7987F5B398BC0AE19275EB720DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GRProgressView_Tests";
+			productName = "Pods-GRProgressView_Tests";
+			productReference = 9029F22D7CE1163FE0F51D6B7BDDF59D /* Pods_GRProgressView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F7AB48552E98B0B1C90E0596616D143 /* GRProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AD180D909F043BADAD72824E26DDEF /* Build configuration list for PBXNativeTarget "GRProgressView" */;
+			buildPhases = (
+				1C4431BF5803B221CB1D702A723D8417 /* Sources */,
+				FB2979D6B64F641AEB779A49AE14B3F5 /* Frameworks */,
+				3E244962531D1A4558D68AA8E0566871 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRProgressView;
+			productName = GRProgressView;
+			productReference = E3D8FF72C3583BCDA0D6B2B542CEE094 /* GRProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F244DE4AFA38A10B8CA22AAE7D4F0EA /* Pods-GRProgressView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D34B3D71E2D139F7D6EB442718F8F7E /* Build configuration list for PBXNativeTarget "Pods-GRProgressView_Example" */;
+			buildPhases = (
+				96E70519DAF58BE7F4461C8248318314 /* Sources */,
+				A6B654CBE9473BEA4DB948148267ACAC /* Frameworks */,
+				B32A5F0B6D93FAF0CF08FCFBCBE5822E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A39B464439809C2517BAA6446EF6465 /* PBXTargetDependency */,
+			);
+			name = "Pods-GRProgressView_Example";
+			productName = "Pods-GRProgressView_Example";
+			productReference = DD1798A1F2585C9B64533DC3FA3FE652 /* Pods_GRProgressView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27457C42213DC4F69490DE1F79504C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7AB48552E98B0B1C90E0596616D143 /* GRProgressView */,
+				6F244DE4AFA38A10B8CA22AAE7D4F0EA /* Pods-GRProgressView_Example */,
+				1AE91CDAE1DDED1EF5C3C5817552A27B /* Pods-GRProgressView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4431BF5803B221CB1D702A723D8417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EF53C61CD380DDBDA025C6355A8E70 /* GRProgressView-dummy.m in Sources */,
+				686B6C7FD26A20E3CAE0E09792088358 /* GRProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E70519DAF58BE7F4461C8248318314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E621B3A10D9CED064DC49A6C015357 /* Pods-GRProgressView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB5616BB52134200D8788C10848D42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49AB0A2884EB492B095B4CB75B646CA /* Pods-GRProgressView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A39B464439809C2517BAA6446EF6465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GRProgressView;
+			target = 3F7AB48552E98B0B1C90E0596616D143 /* GRProgressView */;
+			targetProxy = 5917A770A123FC5D5B213FA28202C175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2922A933A096593BF06BA4DCE40247B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E218776193FFE81BC2D1040347B7D93F /* GRProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRProgressView/GRProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRProgressView/GRProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GRProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B3D3BB10015915CB012607BDEBBB903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B987F173079DF8AFF9139D9C696C81 /* Pods-GRProgressView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRProgressView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRProgressView_Tests/Pods-GRProgressView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRProgressView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B88039C13C2A0C0A1700A90F41A98D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670BC1C02AAC428CE06E9013AB01DF7F /* Pods-GRProgressView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRProgressView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRProgressView_Tests/Pods-GRProgressView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRProgressView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CDF20D101B54D75FDE9AA717D7197C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0DDF04554F10DB3A2CC463B81C829E /* Pods-GRProgressView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRProgressView_Example/Pods-GRProgressView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRProgressView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4DFAF72AE2FB8FE96081BB337CB6E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E218776193FFE81BC2D1040347B7D93F /* GRProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GRProgressView/GRProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GRProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GRProgressView/GRProgressView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GRProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD26D06BB8B05BFCA355B6816E2C40A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808989FB34B3FE998833860F412F7978 /* Pods-GRProgressView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GRProgressView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GRProgressView_Example/Pods-GRProgressView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GRProgressView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D34B3D71E2D139F7D6EB442718F8F7E /* Build configuration list for PBXNativeTarget "Pods-GRProgressView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD26D06BB8B05BFCA355B6816E2C40A4 /* Debug */,
+				80CDF20D101B54D75FDE9AA717D7197C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDEEE0885D3C476EFDFE1EEAA782BC0 /* Build configuration list for PBXNativeTarget "Pods-GRProgressView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3D3BB10015915CB012607BDEBBB903 /* Debug */,
+				4B88039C13C2A0C0A1700A90F41A98D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AD180D909F043BADAD72824E26DDEF /* Build configuration list for PBXNativeTarget "GRProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DFAF72AE2FB8FE96081BB337CB6E6F /* Debug */,
+				2922A933A096593BF06BA4DCE40247B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
