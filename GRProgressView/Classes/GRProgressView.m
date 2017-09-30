@@ -38,6 +38,11 @@
   return self;
 }
 
+- (void)awakeFromNib {
+  [super awakeFromNib];
+  [self initView];
+}
+
 - (void)initView {
   self.progressImageView = [[UIImageView alloc] init];
   self.backgroundColor = [UIColor lightGrayColor];
