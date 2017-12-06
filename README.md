@@ -1,5 +1,4 @@
-# GRProgressView
-
+![](https://github.com/Assuner-Lee/resource/blob/master/grprogressview.png)
 [![CI Status](http://img.shields.io/travis/Assuner-Lee/GRProgressView.svg?style=flat)](https://travis-ci.org/Assuner-Lee/GRProgressView)
 [![Version](https://img.shields.io/cocoapods/v/GRProgressView.svg?style=flat)](http://cocoapods.org/pods/GRProgressView)
 [![License](https://img.shields.io/cocoapods/l/GRProgressView.svg?style=flat)](http://cocoapods.org/pods/GRProgressView)
